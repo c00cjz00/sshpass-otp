@@ -1,4 +1,11 @@
 # sshpass-otp
+### 安裝
+```
+# Download sshpass_otp and put it in /usr/bin/sshpass_otp
+sudo apt-get update
+sudo apt-get -y install oathtool
+
+```
 
 ### 指令
 ```
