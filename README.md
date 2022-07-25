@@ -25,7 +25,8 @@ sshpass_otp -O MOTP -f ${pwd_file} -c ${otp_file} ssh -q ${account}@${server} ba
 1234
 ```
 
-### 範例 otp.sh, 請先取得 otp金鑰, 如F7CHPNX3OxxxxxxxxxxxxxxxxxxxxxxEWF2VMKPUKBH6Q
+### 範例 otp.sh, 請先取得 otp金鑰
+如F7CHPNX3OxxxxxxxxxxxxxxxxxxxxxxEWF2VMKPUKBH6Q
 ```
 #!/bin/sh
 oathtool --totp -b F7CHPNX3OxxxxxxxxxxxxxxxxxxxxxxEWF2VMKPUKBH6Q
